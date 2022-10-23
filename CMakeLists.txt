@@ -11,9 +11,12 @@ if(MSVC)
 endif(MSVC)
 
 find_package(Protobuf REQUIRED)
-find_package(ONNX 1.9 REQUIRED)
-find_package(glog REQUIRED)
-find_package(fmt REQUIRED)
+# find_package(ONNX 1.9 REQUIRED)
+# find_package(glog REQUIRED)
+# find_package(fmt REQUIRED)
+add_subdirectory(3rdparty/onnx)
+add_subdirectory(3rdparty/glog)
+add_subdirectory(3rdparty/fmt)
 
 set(HMCOS_COMMON_LIBS onnx glog::glog fmt::fmt)
 

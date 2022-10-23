@@ -7,6 +7,8 @@ namespace hmcos {
 #define PYTHON_CMD "python"
 #elif defined(__APPLE__)
 #define PYTHON_CMD "python3"
+#else
+#define PYTHON_CMD "python3"
 #endif
 
 static const auto PYTHON_PREAMBLE =

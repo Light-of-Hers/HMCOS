@@ -14,6 +14,8 @@ namespace hmcos {
 #define DEFAULT_FONT "Segoe UI"
 #elif defined(__APPLE__)
 #define DEFAULT_FONT "Helvetica"
+#else 
+#define DEFAULT_FONT "Arial"
 #endif
 
 /// API for defining a directed graph in Graphviz DOT language.

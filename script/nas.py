@@ -310,9 +310,9 @@ def create_model(arch_ty: Type[Architecture], net_ty: Type[NasNetBase],
     save_model(model, f'model/{net.name}.onnx')
 
 
-# create_model(Cifar, NasNet, 6, 32)
-# create_model(ImageNet, NasNet, 4, 11)
-# create_model(Cifar, AmoebaNet, 6, 36)
-# create_model(ImageNet, AmoebaNet, 4, 12.5)
-# create_model(Cifar, Darts, 6, 36)
-# create_model(ImageNet, Darts, 4, 12)
+create_model(Cifar, NasNet, 6, 32)
+create_model(ImageNet, NasNet, 4, 11)
+create_model(Cifar, AmoebaNet, 6, 36)
+create_model(ImageNet, AmoebaNet, 4, 12.5)
+create_model(Cifar, Darts, 6, 36)
+create_model(ImageNet, Darts, 4, 12)

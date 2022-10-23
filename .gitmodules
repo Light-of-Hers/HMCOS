@@ -1,0 +1,9 @@
+[submodule "3rdparty/onnx"]
+	path = 3rdparty/onnx
+	url = git@github.com:onnx/onnx.git
+[submodule "3rdparty/fmt"]
+	path = 3rdparty/fmt
+	url = git@github.com:fmtlib/fmt.git
+[submodule "3rdparty/glog"]
+	path = 3rdparty/glog
+	url = git@github.com:google/glog.git
